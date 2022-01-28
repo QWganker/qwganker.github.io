@@ -1,0 +1,5 @@
+baseURL = 'https://qwganker.github.io/'
+languageCode = 'en-us'
+title = 'qwganker'
+#theme = 'cupper-hugo-theme'
+theme = "ananke"
