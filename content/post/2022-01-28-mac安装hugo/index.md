@@ -1,5 +1,5 @@
 ---
-title: "Mac install hugo"
+title: "Mac安装hugo"
 date: 2022-01-28T14:01:38+08:00
 draft: false
 tags: ["hugo"]

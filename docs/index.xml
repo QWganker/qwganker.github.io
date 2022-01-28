@@ -17,20 +17,20 @@
     </item>
     
     <item>
-      <title>hugo 增加utteranc评论</title>
-      <link>https://qwganker.github.io/post/2022-01-28-hugo%E5%A2%9E%E5%8A%A0%E8%AF%84%E8%AE%BAutteranc/</link>
+      <title>hugo集成utteranc</title>
+      <link>https://qwganker.github.io/post/2022-01-28-hugo%E9%9B%86%E6%88%90utteranc/</link>
       <pubDate>Fri, 28 Jan 2022 14:01:38 +0800</pubDate>
       
-      <guid>https://qwganker.github.io/post/2022-01-28-hugo%E5%A2%9E%E5%8A%A0%E8%AF%84%E8%AE%BAutteranc/</guid>
-      <description>主页 https://utteranc.es/ 使用github issue来管理用户的评论，无广告、干净 安装完之后只需要将下面的代码嵌入你的代码中即可 1 2 3 4 5 6 7 &amp;lt;script src=&amp;#34;https://utteranc.es/client.js&amp;#34; repo=&amp;#34;[ENTER REPO HERE]&amp;#34; issue-term=&amp;#34;pathname&amp;#34; theme=&amp;#34;github-light&amp;#34; crossorigin=&amp;#34;anonymous&amp;#34; async&amp;gt;</description>
+      <guid>https://qwganker.github.io/post/2022-01-28-hugo%E9%9B%86%E6%88%90utteranc/</guid>
+      <description>使用 主页 https://utteranc.es/ 使用github issue来管理用户的评论，无广告、干净 安装完之后只需要将下面的代码嵌入你的代码中即可 1 2 3 4 5 6 7 &amp;lt;script src=&amp;#34;https://utteranc.es/client.js&amp;#34; repo=&amp;#34;[ENTER REPO HERE]&amp;#34; issue-term=&amp;#34;pathname&amp;#34; theme=&amp;#34;github-light&amp;#34;</description>
     </item>
     
     <item>
-      <title>Mac install hugo</title>
-      <link>https://qwganker.github.io/post/2022-01-28-hugo-install/</link>
+      <title>Mac安装hugo</title>
+      <link>https://qwganker.github.io/post/2022-01-28-mac%E5%AE%89%E8%A3%85hugo/</link>
       <pubDate>Fri, 28 Jan 2022 14:01:38 +0800</pubDate>
       
-      <guid>https://qwganker.github.io/post/2022-01-28-hugo-install/</guid>
+      <guid>https://qwganker.github.io/post/2022-01-28-mac%E5%AE%89%E8%A3%85hugo/</guid>
       <description>安装hugo 1 brew install hugo 初始化一个项目 1 hugo new site [name] 下载主题 1 2 3 touch .gitmodules cd themes/ git submodule add https://github.com/olOwOlo/hugo-theme-even 拷贝 even 主题的配置文件到根目录 1 cp themes/hugo-theme-even/exampleSite/config.toml ./ 生成文章 1 hugo new post/xxx.md 生成静态文件 -d</description>
     </item>
     
