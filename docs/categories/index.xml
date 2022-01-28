@@ -5,6 +5,16 @@
     <link>https://qwganker.github.io/categories/</link>
     <description>Recent content in Categories on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://qwganker.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Jan 2022 10:41:48 +0800</lastBuildDate><atom:link href="https://qwganker.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>https://qwganker.github.io/categories/2022/</link>
+      <pubDate>Fri, 28 Jan 2022 10:41:48 +0800</pubDate>
+      
+      <guid>https://qwganker.github.io/categories/2022/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
