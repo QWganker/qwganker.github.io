@@ -30,7 +30,14 @@
   </url>
   
   <url>
-    <loc>https://qwganker.github.io/post/2022-hugo-install/</loc>
+    <loc>https://qwganker.github.io/post/2022-01-28-hugo%E5%A2%9E%E5%8A%A0%E8%AF%84%E8%AE%BAutteranc/</loc>
+    <lastmod>2022-01-28T14:01:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qwganker.github.io/post/2022-01-28-hugo-install/</loc>
     <lastmod>2022-01-28T14:01:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -53,20 +60,6 @@
   <url>
     <loc>https://qwganker.github.io/tags/</loc>
     <lastmod>2022-01-28T14:01:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qwganker.github.io/post/hello/</loc>
-    <lastmod>2022-01-28T10:41:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qwganker.github.io/tags/test/</loc>
-    <lastmod>2022-01-28T10:41:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
