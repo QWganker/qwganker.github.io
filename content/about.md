@@ -7,5 +7,30 @@ weight: 50
 
 ---
 
-## qwganker
+### 简介
+毕业于2014年，目前就职于腾讯，曾从事过嵌入式，全栈开发
 
+### 能力
+- 语言
+   - c/c+, golang, java
+   - vuejs/html/js/css
+   - python, shell
+   - makefile
+- 存储
+   - mysql, oracle, elasticsearch
+   - redis
+   - kafka
+- 服务器
+   -  nginx
+   -  apache
+- 框架
+   - django
+   - go-micro, beego
+   - springcloud
+   - element-ui
+- devops
+   - docker
+   - kvm
+   - git
+- 操作系统
+   - linux, windows
