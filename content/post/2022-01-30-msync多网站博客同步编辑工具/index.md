@@ -13,9 +13,9 @@ categories: ["2022"]
 目前支持的平台只有4个(简书/csdn/今日头条/掘金),  其他的平台后续有时间将继续增加
 
 ### 效果:
-![msync-2.png](https://upload-images.jianshu.io/upload_images/1167544-cbcd2ca92c420002.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![msync-2.png](1.png)
 
-![msync-1.png](https://upload-images.jianshu.io/upload_images/1167544-a8a7457d84e47a82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![msync-1.png](2.png)
 
 ### QQ交流: 448081525
 
