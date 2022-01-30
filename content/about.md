@@ -34,3 +34,10 @@ weight: 50
    - git
 - 操作系统
    - linux, windows
+
+
+### 站点
+- [github](https://github.com/qwganker)
+- [开源中国](https://my.oschina.net/u/2241390)
+- [简书](https://www.jianshu.com/u/38daac4782df)
+- [bilibili](https://space.bilibili.com/501989868?spm_id_from=333.1007.0.0)
