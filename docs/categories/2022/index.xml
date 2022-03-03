@@ -6,7 +6,16 @@
     <description>Recent content in 2022 on 日暮颂歌1991</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Jan 2022 10:01:38 +0800</lastBuildDate><atom:link href="https://qwganker.github.io/categories/2022/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2022 15:08:38 +0800</lastBuildDate><atom:link href="https://qwganker.github.io/categories/2022/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基于quasar开发的IssueNote</title>
+      <link>https://qwganker.github.io/post/2022-03-03-%E5%9F%BA%E4%BA%8Equasar%E5%BC%80%E5%8F%91%E7%9A%84issuenote/</link>
+      <pubDate>Thu, 03 Mar 2022 15:08:38 +0800</pubDate>
+      
+      <guid>https://qwganker.github.io/post/2022-03-03-%E5%9F%BA%E4%BA%8Equasar%E5%BC%80%E5%8F%91%E7%9A%84issuenote/</guid>
+      <description>IssueNote IssueNote 是基于 quasar 构建，将个人笔记存储于 github issue 的私人笔记 源码地址: gitee: https://gitee.com/QWganker/issuenote github https://github.com/qwganker/issuenote 预览 设置 先申请 access token 创建一个用于存放笔记的仓库 启动项目，在仓库管理设置参数，</description>
+    </item>
+    
     <item>
       <title>msync多网站博客同步编辑工具</title>
       <link>https://qwganker.github.io/post/2022-01-30-msync%E5%A4%9A%E7%BD%91%E7%AB%99%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%AD%A5%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7/</link>

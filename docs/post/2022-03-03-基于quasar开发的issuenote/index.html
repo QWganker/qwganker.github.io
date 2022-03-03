@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>msync多网站博客同步编辑工具 - 日暮颂歌1991</title>
+  <title>基于quasar开发的IssueNote - 日暮颂歌1991</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="qwganker" /><meta name="description" content="目前网络上的博客平台众多, 对于做自媒体的人来说, 同步文章是个体力活, 于是动手撸了一个多平台博客同步工具, 目前功能支持: 支持一键发布博客到多个" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="qwganker" /><meta name="description" content="IssueNote IssueNote 是基于 quasar 构建，将个人笔记存储于 github issue 的私人笔记 源码地址: gitee: https://gitee.com/QWganker/issuenote github https://github.com/qwganker/issuenote 预览 设置 先申请 access token 创建一个用于存放笔记的仓库 启动项目，在仓库管理设置参数，" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.92.0 with theme even" />
 
 
-<link rel="canonical" href="https://qwganker.github.io/post/2022-01-30-msync%E5%A4%9A%E7%BD%91%E7%AB%99%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%AD%A5%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7/" />
+<link rel="canonical" href="https://qwganker.github.io/post/2022-03-03-%E5%9F%BA%E4%BA%8Equasar%E5%BC%80%E5%8F%91%E7%9A%84issuenote/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="msync多网站博客同步编辑工具" />
-<meta property="og:description" content="目前网络上的博客平台众多, 对于做自媒体的人来说, 同步文章是个体力活, 于是动手撸了一个多平台博客同步工具, 目前功能支持: 支持一键发布博客到多个" />
+<meta property="og:title" content="基于quasar开发的IssueNote" />
+<meta property="og:description" content="IssueNote IssueNote 是基于 quasar 构建，将个人笔记存储于 github issue 的私人笔记 源码地址: gitee: https://gitee.com/QWganker/issuenote github https://github.com/qwganker/issuenote 预览 设置 先申请 access token 创建一个用于存放笔记的仓库 启动项目，在仓库管理设置参数，" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://qwganker.github.io/post/2022-01-30-msync%E5%A4%9A%E7%BD%91%E7%AB%99%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%AD%A5%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-01-30T10:01:38+08:00" />
-<meta property="article:modified_time" content="2022-01-30T10:01:38+08:00" />
+<meta property="og:url" content="https://qwganker.github.io/post/2022-03-03-%E5%9F%BA%E4%BA%8Equasar%E5%BC%80%E5%8F%91%E7%9A%84issuenote/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-03-03T15:08:38+08:00" />
+<meta property="article:modified_time" content="2022-03-03T15:08:38+08:00" />
 
-<meta itemprop="name" content="msync多网站博客同步编辑工具">
-<meta itemprop="description" content="目前网络上的博客平台众多, 对于做自媒体的人来说, 同步文章是个体力活, 于是动手撸了一个多平台博客同步工具, 目前功能支持: 支持一键发布博客到多个"><meta itemprop="datePublished" content="2022-01-30T10:01:38+08:00" />
-<meta itemprop="dateModified" content="2022-01-30T10:01:38+08:00" />
-<meta itemprop="wordCount" content="155">
-<meta itemprop="keywords" content="工具," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="msync多网站博客同步编辑工具"/>
-<meta name="twitter:description" content="目前网络上的博客平台众多, 对于做自媒体的人来说, 同步文章是个体力活, 于是动手撸了一个多平台博客同步工具, 目前功能支持: 支持一键发布博客到多个"/>
+<meta itemprop="name" content="基于quasar开发的IssueNote">
+<meta itemprop="description" content="IssueNote IssueNote 是基于 quasar 构建，将个人笔记存储于 github issue 的私人笔记 源码地址: gitee: https://gitee.com/QWganker/issuenote github https://github.com/qwganker/issuenote 预览 设置 先申请 access token 创建一个用于存放笔记的仓库 启动项目，在仓库管理设置参数，"><meta itemprop="datePublished" content="2022-03-03T15:08:38+08:00" />
+<meta itemprop="dateModified" content="2022-03-03T15:08:38+08:00" />
+<meta itemprop="wordCount" content="141">
+<meta itemprop="keywords" content="quasar," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="基于quasar开发的IssueNote"/>
+<meta name="twitter:description" content="IssueNote IssueNote 是基于 quasar 构建，将个人笔记存储于 github issue 的私人笔记 源码地址: gitee: https://gitee.com/QWganker/issuenote github https://github.com/qwganker/issuenote 预览 设置 先申请 access token 创建一个用于存放笔记的仓库 启动项目，在仓库管理设置参数，"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,10 +129,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">msync多网站博客同步编辑工具</h1>
+      <h1 class="post-title">基于quasar开发的IssueNote</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2022-01-30 </span>
+        <span class="post-time"> 2022-03-03 </span>
         <div class="post-category">
             <a href="/categories/2022/"> 2022 </a>
             </div>
@@ -149,9 +149,12 @@
       <ul>
         <li>
           <ul>
-            <li><a href="#效果">效果:</a></li>
-            <li><a href="#qq交流-448081525">QQ交流: 448081525</a></li>
+            <li><a href="#issuenote">IssueNote</a></li>
             <li><a href="#源码地址">源码地址:</a></li>
+            <li><a href="#预览">预览</a></li>
+            <li><a href="#设置">设置</a></li>
+            <li><a href="#开发手册">开发手册</a></li>
+            <li><a href="#交流">交流</a></li>
           </ul>
         </li>
       </ul>
@@ -161,21 +164,68 @@
   </div>
 </div>
     <div class="post-content">
-      <p>目前网络上的博客平台众多, 对于做自媒体的人来说, 同步文章是个体力活, 于是动手撸了一个多平台博客同步工具, 目前功能支持:</p>
-<ul>
-<li>支持一键发布博客到多个平台</li>
-<li>本地管理多平台文章, 支持更新发布和删除功能</li>
-</ul>
-<p>目前支持的平台只有4个(简书/csdn/今日头条/掘金),  其他的平台后续有时间将继续增加</p>
-<h3 id="效果">效果:</h3>
-<p><img src="1.png" alt="msync-2.png"></p>
-<p><img src="2.png" alt="msync-1.png"></p>
-<h3 id="qq交流-448081525">QQ交流: 448081525</h3>
+      <h3 id="issuenote">IssueNote</h3>
+<p>IssueNote 是基于 <a href="https://quasar.dev/">quasar</a> 构建，将个人笔记存储于 github issue 的私人笔记</p>
 <h3 id="源码地址">源码地址:</h3>
 <ul>
-<li>github <a href="https://github.com/qwganker/msync">https://github.com/qwganker/msync</a></li>
-<li>gitee <a href="https://gitee.com/QWganker/msync">https://gitee.com/QWganker/msync</a></li>
+<li>gitee: <a href="https://gitee.com/QWganker/issuenote">https://gitee.com/QWganker/issuenote</a></li>
+<li>github <a href="https://github.com/qwganker/issuenote">https://github.com/qwganker/issuenote</a></li>
 </ul>
+<h3 id="预览">预览</h3>
+<p><img src="https://raw.githubusercontent.com/qwganker/issuenote/master/docs/imgs/preview.png" alt="image"></p>
+<h3 id="设置">设置</h3>
+<ol>
+<li>
+<p>先申请 <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">access token</a></p>
+</li>
+<li>
+<p>创建一个用于存放笔记的仓库</p>
+</li>
+<li>
+<p>启动项目，在仓库管理设置参数，并保存</p>
+</li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/qwganker/issuenote/master/docs/imgs/setting.png" alt="image"></p>
+<h3 id="开发手册">开发手册</h3>
+<ol>
+<li>安装依赖</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">npm install -g @quasar/cli
+npm install
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>本地运行</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">quasar dev
+</code></pre></td></tr></table>
+</div>
+</div><p>本地访问地址: http://localhost:8080</p>
+<ol start="3">
+<li>打包 electron 应用</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">quasar build -m electron
+</code></pre></td></tr></table>
+</div>
+</div><p>打包的应用存放在 dist/electroon 目录下</p>
+<h3 id="交流">交流</h3>
+<p>QQ 群(764361968)</p>
 
     </div>
 
@@ -187,7 +237,7 @@
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2022-01-30
+        2022-03-03
         
     </span>
   </p>
@@ -196,16 +246,12 @@
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/%E5%B7%A5%E5%85%B7/">工具</a>
+          <a href="/tags/quasar/">quasar</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/2022-03-03-%E5%9F%BA%E4%BA%8Equasar%E5%BC%80%E5%8F%91%E7%9A%84issuenote/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">基于quasar开发的IssueNote</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/2022-01-28-hugo%E9%9B%86%E6%88%90utteranc/">
-            <span class="next-text nav-default">hugo集成utteranc</span>
+        
+        <a class="next" href="/post/2022-01-30-msync%E5%A4%9A%E7%BD%91%E7%AB%99%E5%8D%9A%E5%AE%A2%E5%90%8C%E6%AD%A5%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7/">
+            <span class="next-text nav-default">msync多网站博客同步编辑工具</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
