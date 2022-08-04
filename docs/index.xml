@@ -6,7 +6,7 @@
     <description>Recent content on 日暮颂歌1991</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Mar 2022 15:08:38 +0800</lastBuildDate><atom:link href="https://qwganker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2022 15:08:38 +0800</lastBuildDate><atom:link href="https://qwganker.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://qwganker.github.io/about/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://qwganker.github.io/about/</guid>
       <description>个人简介 2014年毕业，做过嵌入式(安卓驱动)，后台，前端开发，目前在搞golang 个人能力 语言 c/c+, golang, java vuejs/html/js/css python, shell makefile 存储 mysql, oracle, elasticsearch redis kafka 服务器 nginx apache 框架 django,</description>
+    </item>
+    
+    <item>
+      <title>向beego共享了源码</title>
+      <link>https://qwganker.github.io/post/2022-08-04-%E5%90%91beego%E8%B4%A1%E7%8C%AE%E4%BA%86%E6%BA%90%E7%A0%81/</link>
+      <pubDate>Thu, 04 Aug 2022 15:08:38 +0800</pubDate>
+      
+      <guid>https://qwganker.github.io/post/2022-08-04-%E5%90%91beego%E8%B4%A1%E7%8C%AE%E4%BA%86%E6%BA%90%E7%A0%81/</guid>
+      <description>详情见 -&amp;gt; https://github.com/beego/beego/pull/4999</description>
     </item>
     
     <item>
